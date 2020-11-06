@@ -6,7 +6,7 @@
 /*   By: qli <qli@student.codam.nl>                   +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/11/06 14:48:19 by qli           #+#    #+#                 */
-/*   Updated: 2020/11/06 14:59:55 by qli           ########   odam.nl         */
+/*   Updated: 2020/11/06 15:10:38 by qli           ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,16 +22,19 @@ int		main(int argc, char **argv)
 	if (argc != 2)
     {
         printf("Please run \"./get_next_line file_name\"\n");
-        return (0);
+        return (1);
     }    
     fd = open(argv[1], O_RDONLY);
     if (fd == -1)
-        return (0);
-	while (get_next_line(fd, &line) == 1)
-	{
-		printf("%s\n", line);
-        free(line);
-	}
+        return (1);
+    else
+    {
+        while (get_next_line(fd, &line) == 1)
+        {
+            printf("%s\n", line);
+            free(line);
+        }
+    }
     free(line);
     close(fd);
 	return (0);
