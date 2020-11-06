@@ -16,10 +16,10 @@
 
 int		main(int argc, char **argv)
 {
-	int     fd;
-	char    *line;
+    int     fd;
+    char    *line;
 
-	if (argc != 2)
+    if (argc != 2)
     {
         printf("Please run \"./get_next_line file_name\"\n");
         return (1);
@@ -37,5 +37,5 @@ int		main(int argc, char **argv)
     }
     free(line);
     close(fd);
-	return (0);
+    return (0);
 }
