@@ -23,6 +23,4 @@ $ ./get_next_line test.txt
 ```
 ## Example
 
-![get_next_line_example](https://github.com/qingqingqingli/readme_images/blob/master/get_next_line_example_2.png)
-
 ![get_next_line_example](https://github.com/qingqingqingli/readme_images/blob/master/get_next_line_example.png)
