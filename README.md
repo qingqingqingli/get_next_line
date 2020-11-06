@@ -1,5 +1,5 @@
 
-[![Logo](https://github.com/qingqingqingli/readme_images/blob/master/codam_logo.png){:height="200px"}](https://github.com/qingqingqingli/get_next_line)
+[![Logo](https://github.com/qingqingqingli/readme_images/blob/master/codam_logo.png)]{height=200px}(https://github.com/qingqingqingli/get_next_line)
 
 ## get_next_line
 ***The aim of this project is to code a function that returns a line ending with a newline, read from a file descriptor.***
