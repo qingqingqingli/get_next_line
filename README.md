@@ -21,3 +21,8 @@ $ cd get_next_line
 $ gcc -D BUFFER_SIZE=32 -o get_next_line main.c get_next_line.c get_next_line_utils.c
 $ ./get_next_line test.txt
 ```
+## Example
+
+![get_next_line_example](https://github.com/qingqingqingli/readme_images/blob/master/get_next_line_example_2.png)
+
+![get_next_line_example](https://github.com/qingqingqingli/readme_images/blob/master/get_next_line_example.png)
