@@ -8,7 +8,7 @@ This project also introduces the concept of static variables in C programming.
 
 ## Technical considerations
 
-- Allowed functions: *malloc*, *free*, *write*
+- Allowed functions: ```malloc```, ```free```, ```write```
 - All heap allocated memory space must be properly freed when necessary
 
 ## How to test
