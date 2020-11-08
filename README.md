@@ -22,4 +22,4 @@ $ ./get_next_line test.txt
 ```
 ## Example
 
-![get_next_line_example][(https://github.com/qingqingqingli/readme_images/blob/master/get_next_line_example.png)](https://github.com/qingqingqingli/get_next_line)
+[![get_next_line_example](https://github.com/qingqingqingli/readme_images/blob/master/get_next_line_example.png)](https://github.com/qingqingqingli/get_next_line)
